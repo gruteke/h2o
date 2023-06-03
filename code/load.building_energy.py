@@ -14,3 +14,8 @@ train, test = data.split_frame([0.8])
 
 x = ["X1", "X2", "X3", "X4", "X5", "X6", "X7", "X8"]
 y = "Y2"  #Or "Y1"
+
+print(train)
+print(test)
+
+train.describe("X1")
